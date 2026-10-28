@@ -238,5 +238,17 @@
             android:textAllCaps="false"
             android:textColor="@color/kunefe_offline"
             android:textSize="13sp" />
+
+        <!-- LGPLv3: dağıtılan APK'nın kaynak koduna erişim -->
+        <TextView
+            android:id="@+id/source_code_link"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="18dp"
+            android:gravity="center"
+            android:paddingBottom="8dp"
+            android:text="@string/kunefe_settings_source"
+            android:textColor="@color/kunefe_dim"
+            android:textSize="12sp" />
     </LinearLayout>
 </ScrollView>

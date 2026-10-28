@@ -79,4 +79,5 @@
     <string name="kunefe_settings_logout_message">Hesap bilgileri bu cihazdan kaldırılır. Oyun dosyaların silinmez.</string>
     <string name="kunefe_settings_logout_confirm">Çıkış Yap</string>
     <string name="kunefe_settings_logout_cancel">Vazgeç</string>
+    <string name="kunefe_settings_source">Kaynak kodu ve lisans bilgisi (LGPLv3)</string>
 </resources>

@@ -80,6 +80,7 @@ public class KunefeSettingsActivity extends BaseActivity {
         findViewById(R.id.skin_pick_button).setOnClickListener(v -> mSkinPicker.launch("image/png"));
         findViewById(R.id.update_button).setOnClickListener(v -> KunefeUpdater.checkManually(this));
         findViewById(R.id.logout_button).setOnClickListener(v -> confirmLogout());
+        findViewById(R.id.source_code_link).setOnClickListener(v -> openSourceCode());
         mSaveButton.setOnClickListener(v -> save());
 
         loadFps();
@@ -267,6 +268,16 @@ public class KunefeSettingsActivity extends BaseActivity {
                     container.addView(description);
                 }
             }
+        }
+    }
+
+    /** LGPLv3 gereği kaynak koduna erişim. */
+    private void openSourceCode() {
+        try {
+            startActivity(new Intent(Intent.ACTION_VIEW,
+                    Uri.parse("https://github.com/Kubbemsi/kunefe-launcher-android")));
+        } catch (Exception e) {
+            Toast.makeText(this, "Tarayıcı açılamadı", Toast.LENGTH_SHORT).show();
         }
     }
 
