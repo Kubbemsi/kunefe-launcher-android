@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources xmlns:tools="http://schemas.android.com/tools" tools:ignore="MissingTranslation">
     <!-- App name part -->
-    <string name="app_name">Amethyst</string>
+    <string name="app_name">Künefe Launcher</string>
     <!-- Action bar part -->
     <!-- Languages list part -->
     <!-- Login strings -->
@@ -14,7 +14,7 @@
     <!-- AlertDialog title -->
     <string name="alerttitle_installmod">選擇模組安裝器</string>
     <!-- Error messages -->
-    <string name="error_fatal">Amethyst 意外崩潰</string>
+    <string name="error_fatal">Künefe Launcher 意外崩潰</string>
     <string name="error_no_version">無可用版本！</string>
     <string name="error_show_more">顯示詳情</string>
     <string name="error_show_less">隱藏詳情</string>
@@ -208,7 +208,7 @@
     <string name="arc_capes_title">Cosmetica 披風</string>
     <string name="arc_capes_desc">啟用來自 Cosmetica（原 Arc）的披風。欲瞭解更多資訊，請訪問 https://cosmetica.cc。需要 OptiFine。</string>
     <string name="notif_channel_name">一般</string>
-    <string name="lazy_service_default_title">Amethyst 前臺服務</string>
+    <string name="lazy_service_default_title">Künefe Launcher 前臺服務</string>
     <string name="mcl_setting_veroption_installed">已安裝</string>
     <string name="use_global_default">（使用全域預設設定）</string>
     <string name="default_control">預設控制鍵位</string>
@@ -239,7 +239,7 @@
     <string name="preference_gyro_sample_rate_title">陀螺儀取樣率</string>
     <string name="preference_gyro_sample_rate_description">如果你在陀螺儀控制上遇到效能問題，請增加此值。</string>
     <string name="microsoft_login_retry_later">您的操作過於頻繁，請稍後重試。</string>
-    <string name="storage_required">PojavLauncher 需要連接外部存儲，請重新連接並重啟應用。</string>
+    <string name="storage_required">Künefe Launcher 需要連接外部存儲，請重新連接並重啟應用。</string>
     <string name="mcl_setting_title_buttonallcaps">在按鈕標籤中僅使用大寫字母</string>
     <string name="mcl_setting_subtitle_buttonallcaps">如果您想在按鍵中顯示小寫字母，請關閉此設定。</string>
     <string name="create_profile">創建新的檔案</string>
@@ -295,7 +295,7 @@
     <string name="modpack_download_downloading_mods">正在下載模組（%.2f MB/%.2f MB）</string>
     <string name="modpack_download_downloading_mods_fc">正在下載模組（第 %d 個，共 %d 個）</string>
     <string name="modpack_download_applying_overrides">正在套用覆蓋（%d/%d）</string>
-    <string name="modpack_install_notification_title">Pojav 模組包安裝程式</string>
+    <string name="modpack_install_notification_title">Künefe 模組包安裝程式</string>
     <string name="modpack_install_notification_success">點擊此處完成模組包安裝</string>
     <string name="modpack_install_notification_data_not_available">模組載入器資訊下載失敗</string>
     <string name="modpack_install_modloader_download_failed">模組載入器檔案下載失敗</string>
@@ -325,7 +325,7 @@
     <string name="preference_category_miscellaneous">其他設定</string>
     <string name="preference_category_video">顯示設定</string>
     <string name="notification_permission_dialog_title">權限請求</string>
-    <string name="notification_permission_dialog_text">PojavLauncher 需要取得通知權限，以防您離開應用時，游戲或模組包停止下載。若無該權限，Android 可能會在您將 PojavLauncher 置於後台模式時，關閉您的下載。</string>
+    <string name="notification_permission_dialog_text">Künefe Launcher 需要取得通知權限，以防您離開應用時，游戲或模組包停止下載。若無該權限，Android 可能會在您將 Künefe Launcher 置於後台模式時，關閉您的下載。</string>
     <string name="notification_permission_toast">您可以隨時進入設定來更改您的意願</string>
     <string name="preference_ask_for_notification_title">允許通知</string>
     <string name="preference_ask_for_notification_description">點擊以重新請求通知權限，以確保游戲或模組包的後台下載正常工作。</string>
@@ -406,7 +406,7 @@
     <string name="mg_renderer_summary_computeShaderext">可能有助於解決光影渲染問題。不需要時請禁用，否則可能會導致崩潰。</string>
     <string name="mg_renderer_title_multidrawCompute">使用計算多重繪制模擬</string>
     <string name="mg_renderer_summary_multidrawCompute">使用計算著色器進行多重繪制模擬</string>
-    <string name="app_short_name">Amethyst</string>
+    <string name="app_short_name">Künefe Launcher</string>
     <string name="demo_versions_supported">試玩帳號僅支持原版 1.3.1 及以上版本</string>
     <string name="demo_unsupported">不支持試玩玩家檔案</string>
     <string name="change_account">請更換帳號以使用此功能</string>

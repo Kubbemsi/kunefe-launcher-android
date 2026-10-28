@@ -112,8 +112,8 @@ android {
         applicationId "com.kunefesmp.launcher"
         minSdkVersion 21
         targetSdkVersion 34
-        versionCode 4601
-        versionName "4.6.1-android"
+        versionCode 4602
+        versionName "4.6.2-android"
         multiDexEnabled true //important
         resValue 'string', 'curseforge_api_key', getCFApiKey()
         externalNativeBuild {
@@ -131,8 +131,8 @@ android {
             shrinkResources false
             proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
             signingConfig signingConfigs.customDebug
-            resValue "string", "app_name", "Kunefe Launcher"
-            resValue "string", "app_short_name", "Kunefe"
+            resValue "string", "app_name", "K\u00fcnefe Launcher"
+            resValue "string", "app_short_name", "K\u00fcnefe Launcher"
             resValue 'string', 'application_package', 'com.kunefesmp.launcher.debug'
             resValue 'string', 'storageProviderAuthorities', 'com.kunefesmp.launcher.scoped.gamefolder.debug'
             resValue 'string', 'shareProviderAuthority', 'com.kunefesmp.launcher.scoped.controlfolder.debug'
@@ -155,8 +155,8 @@ android {
             // defaultConfig already set
             // multiDexEnabled = true
             // debuggable = true
-            resValue "string", "app_name", "Kunefe Launcher"
-            resValue "string", "app_short_name", "Kunefe"
+            resValue "string", "app_name", "K\u00fcnefe Launcher"
+            resValue "string", "app_short_name", "K\u00fcnefe Launcher"
             resValue 'string', 'storageProviderAuthorities', 'com.kunefesmp.launcher.scoped.gamefolder'
             resValue 'string', 'shareProviderAuthority', 'com.kunefesmp.launcher.scoped.controlfolder'
             resValue 'string', 'application_package', 'com.kunefesmp.launcher'

@@ -55,16 +55,15 @@ public class MainMenuFragment extends Fragment {
 
     @Override
     public void onViewCreated(@NonNull View view, @Nullable Bundle savedInstanceState) {
-        Button mNewsButton = view.findViewById(R.id.news_button);
-        Button mDiscordButton = view.findViewById(R.id.discord_button);
-        Button mCustomControlButton = view.findViewById(R.id.custom_control_button);
-        Button mInstallJarButton = view.findViewById(R.id.install_jar_button);
-        Button mShareLogsButton = view.findViewById(R.id.share_logs_button);
-        Button mOpenDirectoryButton = view.findViewById(R.id.open_files_button);
-        Button mSettingsButton = view.findViewById(R.id.kunefe_settings_button);
+        View mDiscordButton = view.findViewById(R.id.discord_button);
+        View mCustomControlButton = view.findViewById(R.id.custom_control_button);
+        View mInstallJarButton = view.findViewById(R.id.install_jar_button);
+        View mShareLogsButton = view.findViewById(R.id.share_logs_button);
+        View mOpenDirectoryButton = view.findViewById(R.id.open_files_button);
+        View mSettingsButton = view.findViewById(R.id.kunefe_settings_button);
 
         ImageButton mEditProfileButton = view.findViewById(R.id.edit_profile_button);
-        Button mPlayButton = view.findViewById(R.id.play_button);
+        View mPlayButton = view.findViewById(R.id.play_button);
         mVersionSpinner = view.findViewById(R.id.mc_version_spinner);
         mUsernameView = view.findViewById(R.id.kunefe_username);
         mServerStatusView = view.findViewById(R.id.kunefe_server_status);
@@ -75,13 +74,6 @@ public class MainMenuFragment extends Fragment {
                     startActivity(new Intent(requireContext(), KunefeSettingsActivity.class)));
         }
 
-        if (mNewsButton != null) {
-            mNewsButton.setOnClickListener(v -> Tools.openURL(requireActivity(), Tools.URL_HOME));
-            mNewsButton.setOnLongClickListener((v) -> {
-                Tools.swapFragment(requireActivity(), GamepadMapperFragment.class, GamepadMapperFragment.TAG, null);
-                return true;
-            });
-        }
         if (mDiscordButton != null) {
             mDiscordButton.setOnClickListener(v -> Tools.openURL(requireActivity(), getString(R.string.discord_invite)));
         }

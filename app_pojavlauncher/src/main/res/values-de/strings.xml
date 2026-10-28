@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources xmlns:tools="http://schemas.android.com/tools" tools:ignore="MissingTranslation">
     <!-- App name part -->
-    <string name="app_name">Amethyst</string>
+    <string name="app_name">Künefe Launcher</string>
     <!-- Action bar part -->
     <!-- Languages list part -->
     <!-- Login strings -->
@@ -14,7 +14,7 @@
     <!-- AlertDialog title -->
     <string name="alerttitle_installmod">Wähle einen Mod-Installer</string>
     <!-- Error messages -->
-    <string name="error_fatal">Amethyst ist unerwartet abgestürzt</string>
+    <string name="error_fatal">Künefe Launcher ist unerwartet abgestürzt</string>
     <string name="error_no_version">Keine Version!</string>
     <string name="error_show_more">Mehr anzeigen</string>
     <string name="error_show_less">Weniger anzeigen</string>
@@ -208,7 +208,7 @@
     <string name="arc_capes_title">Cosmetica-Umhänge</string>
     <string name="arc_capes_desc">Aktiviert Umhänge von Cosmetica (früher Arc). Für weitere Informationen, siehe https://cosmetica.cc. OptiFine wird benötigt.</string>
     <string name="notif_channel_name">Allgemein</string>
-    <string name="lazy_service_default_title">Amethyst-Vordergrunddienst</string>
+    <string name="lazy_service_default_title">Künefe Launcher-Vordergrunddienst</string>
     <string name="mcl_setting_veroption_installed">Installiert</string>
     <string name="use_global_default">(Standardvorgaben verwenden)</string>
     <string name="default_control">Standard-Steuerung</string>
@@ -238,7 +238,7 @@
     <string name="preference_gyro_sample_rate_title">Gyroskop-Abtastrate</string>
     <string name="preference_gyro_sample_rate_description">Erhöhen bei Leistungsproblemen mit Gyroscope-Steuerung.</string>
     <string name="microsoft_login_retry_later">Zu viele Anfragen – bitte versuche es später erneut.</string>
-    <string name="storage_required">PojavLauncher benötigt einen verbundenen externen Speicher. Bitte verbinde ihn erneut und starte dann die App neu.</string>
+    <string name="storage_required">Künefe Launcher benötigt einen verbundenen externen Speicher. Bitte verbinde ihn erneut und starte dann die App neu.</string>
     <string name="mcl_setting_title_buttonallcaps">Nur Großbuchstaben in Tastenbeschriftungen verwenden</string>
     <string name="mcl_setting_subtitle_buttonallcaps">Deaktivieren, um Kleinbuchstaben für die Steuerung zu verwenden.</string>
     <string name="preference_shader_dump_title">Shader-Dumping aktivieren</string>
@@ -293,7 +293,7 @@
     <string name="modpack_download_downloading_mods">Lade Mods herunter (%.2f MB / %.2f MB)</string>
     <string name="modpack_download_downloading_mods_fc">Lade Mods herunter ( %d von %d)</string>
     <string name="modpack_download_applying_overrides">Wende Overrides an (%d/%d)</string>
-    <string name="modpack_install_notification_title">Pojav-Modpack-Installer</string>
+    <string name="modpack_install_notification_title">Künefe-Modpack-Installer</string>
     <string name="modpack_install_notification_success">Klicke hier, um die Installation des Modpack abzuschließen</string>
     <string name="modpack_install_notification_data_not_available">Fehler beim Herunterladen der Mod-Loader-Informationen</string>
     <string name="modpack_install_modloader_download_failed">Fehler beim Herunterladen der Mod-Loader-Dateien</string>
@@ -323,7 +323,7 @@ Um die offizielle Download-Quelle zu verwenden, drücke \"Auf offizielle Seite u
     <string name="preference_category_miscellaneous">Sonstige Einstellungen</string>
     <string name="preference_category_video">Grafik-Einstellungen</string>
     <string name="notification_permission_dialog_title">Berechtigungsanfrage</string>
-    <string name="notification_permission_dialog_text">PojavLauncher benötigt eine Berechtigung, um Benachrichtigungen anzuzeigen, damit Spiel-/Modpack-Downloads nicht abgebrochen werden, wenn die App verlassen wird. Ohne diese Berechtigung könnte Android Downloads stoppen, wenn PojavLauncher nicht mehr im Vordergrund ist.</string>
+    <string name="notification_permission_dialog_text">Künefe Launcher benötigt eine Berechtigung, um Benachrichtigungen anzuzeigen, damit Spiel-/Modpack-Downloads nicht abgebrochen werden, wenn die App verlassen wird. Ohne diese Berechtigung könnte Android Downloads stoppen, wenn Künefe Launcher nicht mehr im Vordergrund ist.</string>
     <string name="notification_permission_toast">Dies kann jederzeit in den Einstellungen geändert werden</string>
     <string name="preference_ask_for_notification_title">Benachrichtigungen erlauben</string>
     <string name="preference_ask_for_notification_description">Klicken, um die Benachrichtigungs-Berechtigung erneut anzufragen, damit Spiel-/Modpack-Downloads im Hintergrund richtig funktionieren.</string>
@@ -399,7 +399,7 @@ Um die offizielle Download-Quelle zu verwenden, drücke \"Auf offizielle Seite u
     <string name="mg_renderer_summary_computeShaderext">Kann bei Shaderpack-Problemen helfen. Deaktivieren, wenn nicht benötigt, kann Abstürze verursachen.</string>
     <string name="mg_renderer_title_multidrawCompute">Nutze die Compute Multidraw-Emulation</string>
     <string name="mg_renderer_summary_multidrawCompute">Verwendet den Compute-Shader Shader für die Multidraw-Emulation</string>
-    <string name="app_short_name">Amethyst</string>
+    <string name="app_short_name">Künefe Launcher</string>
     <string name="demo_versions_supported">Auf Demo-Konten wird nur Vanilla 1.3.1 unterstützt</string>
     <string name="demo_unsupported">Demo-Profil wird nicht unterstützt</string>
     <string name="change_account">Bitte wechsle das Konto, um diese Funktion zu nutzen</string>

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources xmlns:tools="http://schemas.android.com/tools" tools:ignore="MissingTranslation">
     <!-- App name part -->
-    <string name="app_name">Amethyst</string>
+    <string name="app_name">Künefe Launcher</string>
     <!-- Action bar part -->
     <!-- Languages list part -->
     <!-- Login strings -->
@@ -14,7 +14,7 @@
     <!-- AlertDialog title -->
     <string name="alerttitle_installmod">Seleziona un installer mod</string>
     <!-- Error messages -->
-    <string name="error_fatal">Amethyst è crashato inaspettatamente</string>
+    <string name="error_fatal">Künefe Launcher è crashato inaspettatamente</string>
     <string name="error_no_version">Nessuna versione!</string>
     <string name="error_show_more">Mostra altro</string>
     <string name="error_show_less">Mostra meno</string>
@@ -205,7 +205,7 @@
     <string name="arc_capes_title">Mantelli Cosmetica</string>
     <string name="arc_capes_desc">Abilità i mantelli di Cosmetica (precedentemente Arc). Per ulteriori informazioni visita https://cosmetica.cc. Necessita OptiFine.</string>
     <string name="notif_channel_name">Generale</string>
-    <string name="lazy_service_default_title">Servizio di Foreground Amethyst</string>
+    <string name="lazy_service_default_title">Servizio di Foreground Künefe Launcher</string>
     <string name="mcl_setting_veroption_installed">Installato</string>
     <string name="use_global_default">(Utilizza il predefinito globale)</string>
     <string name="default_control">Controlli default</string>
@@ -236,7 +236,7 @@ Accedi almeno una volta su https://minecraft.net/ e riprova.</string>
     <string name="preference_gyro_sample_rate_title">Frequenza di campionamento giroscopio</string>
     <string name="preference_gyro_sample_rate_description">Se avete problemi di prestazioni con i controlli del giroscopio, aumentare questo.</string>
     <string name="microsoft_login_retry_later">Troppe richieste, riprova più tardi.</string>
-    <string name="storage_required">PojavLauncher necessita della memoria esterna, connettila e riavvia l\'applicazione</string>
+    <string name="storage_required">Künefe Launcher necessita della memoria esterna, connettila e riavvia l\'applicazione</string>
     <string name="mcl_setting_title_buttonallcaps">Usa solo lettere maiuscole nelle etichette dei pulsanti</string>
     <string name="mcl_setting_subtitle_buttonallcaps">Disabilita questa opzione se vuoi usare lettere minuscole nei tuoi controlli.</string>
     <string name="preference_shader_dump_title">Abilità shader dumping</string>
@@ -321,7 +321,7 @@ se vuoi scaricare dalla sorgente ufficiale premi \"Passa al sito ufficiale"\ e r
     <string name="preference_category_miscellaneous">Impostazioni varie</string>
     <string name="preference_category_video">Impostazioni del video</string>
     <string name="notification_permission_dialog_title">Richiesta di autorizzazione</string>
-    <string name="notification_permission_dialog_text">PojavLauncher richiede l\'autorizzazione a inviare notifiche per evitare che i download di giochi/modpack si interrompano quando si lascia l\'applicazione. Senza questa autorizzazione, Android potrebbe interrompere i download quando si mette PojavLauncher in modalità di sfondo.</string>
+    <string name="notification_permission_dialog_text">Künefe Launcher richiede l\'autorizzazione a inviare notifiche per evitare che i download di giochi/modpack si interrompano quando si lascia l\'applicazione. Senza questa autorizzazione, Android potrebbe interrompere i download quando si mette Künefe Launcher in modalità di sfondo.</string>
     <string name="notification_permission_toast">È sempre possibile cambiare idea in un secondo momento, accedendo a Impostazioni</string>
     <string name="preference_ask_for_notification_title">Permettere le notifiche</string>
     <string name="preference_ask_for_notification_description">Clicca per richiedere nuovamente il permesso di notifiche, necessario per il corretto funzionamento dei download in background di giochi/modpack.</string>
@@ -397,7 +397,7 @@ se vuoi scaricare dalla sorgente ufficiale premi \"Passa al sito ufficiale"\ e r
     <string name="mg_renderer_summary_computeShaderext">Può aiutare con glich dei shaderpack. Disabilitare se non necessario, può causare crash.</string>
     <string name="mg_renderer_title_multidrawCompute">Utilizza Calcola Emulazione Multidraw</string>
     <string name="mg_renderer_summary_multidrawCompute">Usa i compute shaders per l\'emulazione multidraw</string>
-    <string name="app_short_name">Amethyst</string>
+    <string name="app_short_name">Künefe Launcher</string>
     <string name="demo_versions_supported">Solo Vanilla 1.3.1 e superiori sono supportati su account demo</string>
     <string name="demo_unsupported">Profilo demo non supportato</string>
     <string name="change_account">Si prega di cambiare account per utilizzare questa funzione</string>

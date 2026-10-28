@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="kunefe_login_title">KunefeSMP</string>
+    <string name="kunefe_login_title">KünefeSMP</string>
     <string name="kunefe_login_subtitle">Hesabınla giriş yap, oyuna hazır ol.</string>
     <string name="kunefe_username_hint">Kullanıcı adı</string>
     <string name="kunefe_password_hint">Şifre</string>
@@ -12,7 +12,7 @@
     <string name="kunefe_server_checking">● Sunucu kontrol ediliyor...</string>
     <string name="kunefe_online">● Sunucu çevrimiçi</string>
     <string name="kunefe_offline">● Sunucu çevrimdışı</string>
-    <string name="kunefe_version">Kunefe Launcher 4.6 · Android</string>
+    <string name="kunefe_version">Künefe Launcher 4.6.2 · Android</string>
 
     <!-- İlk kurulum -->
     <string name="kunefe_setup_title">Kurulum</string>
@@ -60,7 +60,17 @@
     <string name="kunefe_home_server_address">oyna.kunefesmp.com.tr:25565</string>
     <string name="kunefe_home_server_hint">Oyna\'ya bastığında oyun açılır ve doğrudan sunucuya bağlanır.</string>
     <string name="kunefe_home_actions">Hızlı İşlemler</string>
+    <string name="kunefe_home_server_label">SUNUCU ADRESİ</string>
+    <string name="kunefe_home_version_chip">1.21.1</string>
+    <string name="kunefe_home_website">Web sitesi ve wiki</string>
     <string name="kunefe_home_tip">Minecraft 1.21.1 · Fabric · Künefe istemcisi</string>
+    <string name="kunefe_edit_profile">Profil düzenle</string>
+    <string name="kunefe_action_settings">Ayarlar</string>
+    <string name="kunefe_action_controls">Kontroller</string>
+    <string name="kunefe_action_files">Dosyalar</string>
+    <string name="kunefe_action_install">Mod Kur</string>
+    <string name="kunefe_action_logs">Log Paylaş</string>
+    <string name="kunefe_action_discord">Discord</string>
     <string name="kunefe_mods_checking">Modlar kontrol ediliyor...</string>
 
     <!-- Güncelleme -->

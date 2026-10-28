@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources xmlns:tools="http://schemas.android.com/tools" tools:ignore="MissingTranslation">
     <!-- App name part -->
-    <string name="app_name">Amethyst</string>
+    <string name="app_name">Künefe Launcher</string>
     <!-- Action bar part -->
     <!-- Languages list part -->
     <!-- Login strings -->
@@ -14,7 +14,7 @@
     <!-- AlertDialog title -->
     <string name="alerttitle_installmod">Pilih sebuah instaler mod</string>
     <!-- Error messages -->
-    <string name="error_fatal">Amethyst tiba-tiba crash tanpa diduga</string>
+    <string name="error_fatal">Künefe Launcher tiba-tiba crash tanpa diduga</string>
     <string name="error_no_version">Tidak ada versi yang terdeteksi!</string>
     <string name="error_show_more">Selengkapnya</string>
     <string name="error_show_less">Tampilkan Sedikit</string>
@@ -208,7 +208,7 @@
     <string name="arc_capes_title">Capes Cosmetica</string>
     <string name="arc_capes_desc">Mengaktifkan capes dari Cosmetica (sebelumnya Arc). Untuk informasi lebih lanjut silahkan kunjungi https://cosmetica.cc. Membutuhkan OptiFine.</string>
     <string name="notif_channel_name">Umum</string>
-    <string name="lazy_service_default_title">Amethyst Sedang Berjalan Di Latar Depan</string>
+    <string name="lazy_service_default_title">Künefe Launcher Sedang Berjalan Di Latar Depan</string>
     <string name="mcl_setting_veroption_installed">Terpasang</string>
     <string name="use_global_default">(Gunakan global bawaan)</string>
     <string name="default_control">Kontrol bawaan</string>
@@ -238,7 +238,7 @@
     <string name="preference_gyro_sample_rate_title">Tingkat pengambilan sampel giroskop</string>
     <string name="preference_gyro_sample_rate_description">Jika anda memiliki masalah perfoma dengan kontrol giroskop, tingkatkan ini.</string>
     <string name="microsoft_login_retry_later">Terlalu banyak permintaan, coba lagi nanti.</string>
-    <string name="storage_required">PojavLauncher membutuhkan penyimpanan eksternal. Mohon untuk dipasang kembali dan merestart aplikasi.</string>
+    <string name="storage_required">Künefe Launcher membutuhkan penyimpanan eksternal. Mohon untuk dipasang kembali dan merestart aplikasi.</string>
     <string name="mcl_setting_title_buttonallcaps">Hanya gunakan huruf kapital di label tombol</string>
     <string name="mcl_setting_subtitle_buttonallcaps">Matikan ini jika kamu ingin menggunakan huruf kecil di kontrol.</string>
     <string name="create_profile">Buat profil baru</string>
@@ -294,7 +294,7 @@
     <string name="modpack_download_downloading_mods">Mengunduh mod-mod (%.2f MB / %.2f MB)</string>
     <string name="modpack_download_downloading_mods_fc">Mengunduh mod-mod (Berkas %d dari %d)</string>
     <string name="modpack_download_applying_overrides">Menerapkan pergantian-pergantian paksa (%d/%d)</string>
-    <string name="modpack_install_notification_title">Pemasang Modpack Pojav</string>
+    <string name="modpack_install_notification_title">Pemasang Modpack Künefe</string>
     <string name="modpack_install_notification_success">Klik di sini untuk menyelesaikan pemasangan modpack</string>
     <string name="modpack_install_notification_data_not_available">Gagal mengunduh informasi loader mod</string>
     <string name="modpack_install_modloader_download_failed">Gagal mengunduh berkas-berkas loader mod</string>
@@ -324,7 +324,7 @@
     <string name="preference_category_miscellaneous">Pengaturan lain-lain</string>
     <string name="preference_category_video">Pengaturan video</string>
     <string name="notification_permission_dialog_title">Permintaan izin</string>
-    <string name="notification_permission_dialog_text">Pojav launcher memperlukan izin untuk post notifikasi untuk mencegah download game/modpack berhenti ketika keluar dari aplikasi. Tanpa izin ini, android mungkin membatalkan unduhan ketita menempatkan PojavLaunher dalam mode latar belakang.</string>
+    <string name="notification_permission_dialog_text">Künefe launcher memperlukan izin untuk post notifikasi untuk mencegah download game/modpack berhenti ketika keluar dari aplikasi. Tanpa izin ini, android mungkin membatalkan unduhan ketita menempatkan Künefe Launcher dalam mode latar belakang.</string>
     <string name="notification_permission_toast">kamu selalu dapat berubah pikiran nanti dengan masuk ke Pengaturan</string>
     <string name="preference_ask_for_notification_title">Izinkan notifikasi</string>
     <string name="preference_ask_for_notification_description">Tekan untuk meminta kembali izin notifikasi, dibutuhkan untuk pengunduhan latar belakang permainan/modpack untuk berjalan dengan benar.</string>
@@ -405,7 +405,7 @@
     <string name="mg_renderer_summary_computeShaderext">Mungkin membantu mengatasi glitch pada shaderpack. Nonaktifkan jika tidak diperlukan, karena bisa menyebabkan crash.</string>
     <string name="mg_renderer_title_multidrawCompute">Gunakan Emulasi Multidraw Compute</string>
     <string name="mg_renderer_summary_multidrawCompute">Menggunakan compute shaders untuk emulasi multidraw</string>
-    <string name="app_short_name">Amethyst</string>
+    <string name="app_short_name">Künefe Launcher</string>
     <string name="demo_versions_supported">Hanya Minecraft Vanilla versi 1.3.1 ke atas yang didukung untuk akun demo</string>
     <string name="demo_unsupported">Profil Demo tidak di dukung</string>
     <string name="change_account">Ganti akun terlebih dahulu untuk menggunakan fitur ini</string>

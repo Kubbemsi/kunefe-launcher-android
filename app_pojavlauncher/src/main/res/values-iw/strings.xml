@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources xmlns:tools="http://schemas.android.com/tools" tools:ignore="MissingTranslation">
     <!-- App name part -->
-    <string name="app_name">Amethyst</string>
+    <string name="app_name">Künefe Launcher</string>
     <!-- Action bar part -->
     <!-- Languages list part -->
     <!-- Login strings -->
@@ -14,7 +14,7 @@
     <!-- AlertDialog title -->
     <string name="alerttitle_installmod">בחר מתקין mod</string>
     <!-- Error messages -->
-    <string name="error_fatal">Amethyst קרס באופן בלתי צפוי</string>
+    <string name="error_fatal">Künefe Launcher קרס באופן בלתי צפוי</string>
     <string name="error_no_version">אין גרסה!</string>
     <string name="error_show_more">הצג עוד</string>
     <string name="error_show_less">הצג פחות</string>
@@ -199,7 +199,7 @@
     <string name="pedit_renderer">רינדור</string>
     <string name="arc_capes_desc">מאפשר שכמיות מאת Cosmetica (לשעבר Arc). לקבלת מידע נוסף, בקרו ב- https://cosmetica.cc. דורש OptiFine.</string>
     <string name="notif_channel_name">כללי</string>
-    <string name="lazy_service_default_title">שירות הרקע של Amethyst</string>
+    <string name="lazy_service_default_title">שירות הרקע של Künefe Launcher</string>
     <string name="mcl_setting_veroption_installed">מותקן</string>
     <string name="use_global_default">(השתמש בהגדרות ברירת המחדל הגלובליות)</string>
     <string name="default_control">מפת בקר ברירת מחדל</string>
@@ -227,7 +227,7 @@
     <string name="preference_gyro_sample_rate_title">קצב דגימת ג\'יירוסקופ</string>
     <string name="preference_gyro_sample_rate_description">אם את/ה נתקל/ת בבעיות ביצועים עם בקרי הג\'יירוסקופ, הגדל/י ערך זה.</string>
     <string name="microsoft_login_retry_later">יותר מדי בקשות, נסו שוב מאוחר יותר.</string>
-    <string name="storage_required">PojavLauncher דורש אחסון חיצוני מחובר. בבקשה תחבר/י אותו ואז הפעל/י מחדש את האפליקציה.</string>
+    <string name="storage_required">Künefe Launcher דורש אחסון חיצוני מחובר. בבקשה תחבר/י אותו ואז הפעל/י מחדש את האפליקציה.</string>
     <string name="mcl_setting_title_buttonallcaps">השתמש באותיות גדולות בלבד בתוויות הכפתורים.</string>
     <string name="mcl_setting_subtitle_buttonallcaps">השבת אפשרות זו אם ברצונך להשתמש באותיות קטנות בבקרים שלך.</string>
     <string name="preference_shader_dump_title">אפשר השלכת הצללה</string>
@@ -282,7 +282,7 @@
     <string name="modpack_download_downloading_mods">מוריד מודים (%.2f MB / %.2f MB)</string>
     <string name="modpack_download_downloading_mods_fc">מוריד מודים (קובץ %d מתוך %d)</string>
     <string name="modpack_download_applying_overrides">החלת עקיפות (%d/%d)</string>
-    <string name="modpack_install_notification_title">מתקין modpack של pojav</string>
+    <string name="modpack_install_notification_title">מתקין modpack של Künefe</string>
     <string name="modpack_install_notification_success">לחץ כאן כדי לסיים את התקנת ה modpack</string>
     <string name="modpack_install_notification_data_not_available">נכשל בהורדת מידע על mod loader</string>
     <string name="modpack_install_modloader_download_failed">נכשל בהורדת קבצי mod</string>
@@ -312,7 +312,7 @@
     <string name="preference_category_miscellaneous">הגדרות שונות</string>
     <string name="preference_category_video">הגדרות וידאו</string>
     <string name="notification_permission_dialog_title">בקשת הרשאה</string>
-    <string name="notification_permission_dialog_text">PojavLauncher דורש הרשאה לפרסום התראות כדי למנוע הפסקת הורדות של משחקים/מודים כשאתה עוזב את האפליקציה. ללא הרשאה זו, אנדרואיד עשויה לכבות את ההורדות שלך כשאתה מעביר את PojavLauncher למצב רקע.</string>
+    <string name="notification_permission_dialog_text">Künefe Launcher דורש הרשאה לפרסום התראות כדי למנוע הפסקת הורדות של משחקים/מודים כשאתה עוזב את האפליקציה. ללא הרשאה זו, אנדרואיד עשויה לכבות את ההורדות שלך כשאתה מעביר את Künefe Launcher למצב רקע.</string>
     <string name="notification_permission_toast">תמיד ניתן לשנות את דעתך מאוחר יותר על ידי כניסה להגדרות</string>
     <string name="preference_ask_for_notification_title">אפשר התראות</string>
     <string name="preference_ask_for_notification_description">לחץ כדי לבקש מחדש את הרשאת ההתראה, הנדרשת כדי שהורדות ברקע של המשחק/modpack יפעלו כראוי.</string>
@@ -379,7 +379,7 @@
     <string name="mg_renderer_summary_gl43exts">עשוי לעזור עם תקלות ב-shaderpack. השבת אם אין צורך בכך, עלול לגרום לקריסות.</string>
     <string name="mg_renderer_title_computeShaderext">פרסם את הרחבת Shader החישוב הניסיונית</string>
     <string name="mg_renderer_summary_computeShaderext">עשוי לעזור עם תקלות ב-shaderpack. השבת אם אין צורך בכך, עלול לגרום לקריסות.</string>
-    <string name="app_short_name">Amethyst</string>
+    <string name="app_short_name">Künefe Launcher</string>
     <string name="demo_versions_supported">רק Vanilla 1.3.1 ומעלה נתמכים בחשבונות דמו.</string>
     <string name="demo_unsupported">פרופיל demo אינו נתמך</string>
     <string name="change_account">בבקשה תשנה או תשני חשבונות כדי להשתמש באפשרות זו</string>

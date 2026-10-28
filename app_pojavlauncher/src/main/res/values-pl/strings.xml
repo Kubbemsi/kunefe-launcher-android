@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources xmlns:tools="http://schemas.android.com/tools" tools:ignore="MissingTranslation">
     <!-- App name part -->
-    <string name="app_name">Amethyst</string>
+    <string name="app_name">Künefe Launcher</string>
     <!-- Action bar part -->
     <!-- Languages list part -->
     <!-- Login strings -->
@@ -14,7 +14,7 @@
     <!-- AlertDialog title -->
     <string name="alerttitle_installmod">Wybierz instalator modyfikacji</string>
     <!-- Error messages -->
-    <string name="error_fatal">Amethyst uległ nieoczekiwanej awarii</string>
+    <string name="error_fatal">Künefe Launcher uległ nieoczekiwanej awarii</string>
     <string name="error_no_version">Brak wersji!</string>
     <string name="error_show_more">Pokaż więcej</string>
     <string name="error_show_less">Pokaż mniej</string>
@@ -210,7 +210,7 @@
     <string name="arc_capes_title">Peleryny Cosmetica</string>
     <string name="arc_capes_desc">Włącza peleryny z Cosmetica (wcześniej Arc). Więcej informacji znajdziesz na stronie https://cosmetica.cc. Wymaga OptiFine.</string>
     <string name="notif_channel_name">Ogólne</string>
-    <string name="lazy_service_default_title">Usługa Amethyst Foreground</string>
+    <string name="lazy_service_default_title">Usługa Künefe Launcher Foreground</string>
     <string name="mcl_setting_veroption_installed">Zainstalowane</string>
     <string name="use_global_default">(Użyj ustawień globalnych)</string>
     <string name="default_control">Domyślne sterowanie</string>
@@ -240,7 +240,7 @@
     <string name="preference_gyro_sample_rate_title">Częstotliwość próbkowania żyroskopu</string>
     <string name="preference_gyro_sample_rate_description">Zwiększ tę wartość, jeśli doświadczasz problemów z wydajnością sterowania żyroskopem.</string>
     <string name="microsoft_login_retry_later">Zbyt wiele żądań. Spróbuj ponownie później.</string>
-    <string name="storage_required">PojavLauncher wymaga podłączenia pamięci zewnętrznej. Podłącz ją ponownie i zrestartuj aplikację.</string>
+    <string name="storage_required">Künefe Launcher wymaga podłączenia pamięci zewnętrznej. Podłącz ją ponownie i zrestartuj aplikację.</string>
     <string name="mcl_setting_title_buttonallcaps">W etykietach przycisków stosuj wyłącznie wielkie litery</string>
     <string name="mcl_setting_subtitle_buttonallcaps">Wyłącz tę opcję, jeśli chcesz używać małych liter w sterowaniu dotykowym.</string>
     <string name="create_profile">Utwórz nowy profil</string>
@@ -296,7 +296,7 @@
     <string name="modpack_download_downloading_mods">Pobieranie modyfikacji (%.2f MB / %.2f MB)</string>
     <string name="modpack_download_downloading_mods_fc">Pobieranie modyfikacji (%d z %d)</string>
     <string name="modpack_download_applying_overrides">Zastosowywanie nadpisów (%d/%d)</string>
-    <string name="modpack_install_notification_title">Instalator paczek modów Pojav</string>
+    <string name="modpack_install_notification_title">Instalator paczek modów Künefe</string>
     <string name="modpack_install_notification_success">Kliknij tutaj, aby zakończyć instalację paczki modów</string>
     <string name="modpack_install_notification_data_not_available">Nie udało się pobrać informacji o module ładującym modyfikacje</string>
     <string name="modpack_install_modloader_download_failed">Nie udało się pobrać plików modułu ładującego modyfikacje</string>
@@ -326,7 +326,7 @@
     <string name="preference_category_miscellaneous">Inne ustawienia</string>
     <string name="preference_category_video">Ustawienia wideo</string>
     <string name="notification_permission_dialog_title">Prośba o uprawnienie</string>
-    <string name="notification_permission_dialog_text">PojavLauncher wymaga uprawnień do wysyłania powiadomień, aby zapobiec zatrzymaniu pobierania gier/paczek modów po opuszczeniu aplikacji. Bez tych uprawnień system Android może zatrzymać pobieranie, gdy PojavLauncher zostanie przełączony w tryb tła.</string>
+    <string name="notification_permission_dialog_text">Künefe Launcher wymaga uprawnień do wysyłania powiadomień, aby zapobiec zatrzymaniu pobierania gier/paczek modów po opuszczeniu aplikacji. Bez tych uprawnień system Android może zatrzymać pobieranie, gdy Künefe Launcher zostanie przełączony w tryb tła.</string>
     <string name="notification_permission_toast">Zawsze możesz zmienić zdanie później, przechodząc do ustawień</string>
     <string name="preference_ask_for_notification_title">Zezwól na powiadomienia</string>
     <string name="preference_ask_for_notification_description">Kliknij, aby ponownie poprosić o uprawnienia do powiadomień, które są wymagane do prawidłowego działania pobierania w tle gier/paczek modów.</string>
@@ -407,7 +407,7 @@
     <string name="mg_renderer_summary_computeShaderext">Może pomóc w przypadku problemów z shaderpackami. Jeśli nie jest potrzebne, wyłącz je, ponieważ może powodować awarie.</string>
     <string name="mg_renderer_title_multidrawCompute">Użyj emulacji obliczeniowej Multidraw</string>
     <string name="mg_renderer_summary_multidrawCompute">Wykorzystuje shadery obliczeniowe do emulacji Multidraw</string>
-    <string name="app_short_name">Amethyst</string>
+    <string name="app_short_name">Künefe Launcher</string>
     <string name="demo_versions_supported">Na kontach demonstracyjnych obsługiwane są wyłącznie wersje Vanilla 1.3.1 i nowsze</string>
     <string name="demo_unsupported">Profil demonstracyjny nie jest obsługiwany</string>
     <string name="change_account">Aby skorzystać z tej funkcji, zmień konto</string>

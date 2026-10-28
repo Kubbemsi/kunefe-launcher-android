@@ -114,11 +114,11 @@ import java.util.Map;
 public final class Tools {
     public  static final float BYTE_TO_MB = 1024 * 1024;
     public static final Handler MAIN_HANDLER = new Handler(Looper.getMainLooper());
-    public static String APP_NAME = "Amethyst";
+    public static String APP_NAME = "Kunefe";
 
     public static final Gson GLOBAL_GSON = new GsonBuilder().setPrettyPrinting().create();
 
-    public static final String URL_HOME = "https://wiki.angelauramc.dev";
+    public static final String URL_HOME = "https://kunefesmp.com.tr";
     public static String NATIVE_LIB_DIR;
     public static String DIR_DATA; //Initialized later to get context
     public static File DIR_CACHE;

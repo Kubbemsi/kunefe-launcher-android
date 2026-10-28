@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources xmlns:tools="http://schemas.android.com/tools" tools:ignore="MissingTranslation">
     <!-- App name part -->
-    <string name="app_name">Amethyst</string>
+    <string name="app_name">Künefe Launcher</string>
     <!-- Action bar part -->
     <!-- Languages list part -->
     <!-- Login strings -->
@@ -14,7 +14,7 @@
     <!-- AlertDialog title -->
     <string name="alerttitle_installmod">Vyberte instalátor módů</string>
     <!-- Error messages -->
-    <string name="error_fatal">Amethyst neočekávaně spadl</string>
+    <string name="error_fatal">Künefe Launcher neočekávaně spadl</string>
     <string name="error_no_version">Žádná verze!</string>
     <string name="error_show_more">Zobrazit více</string>
     <string name="error_show_less">Zobrazit méně</string>
@@ -208,7 +208,7 @@
     <string name="arc_capes_title">Kápě Cosmetica</string>
     <string name="arc_capes_desc">Zapne kápě z Cosmeticy (dříve Arc) Pro více informací navštivte https://cosmetica.cc. Vyžaduje OptiFine.</string>
     <string name="notif_channel_name">Všeobecné</string>
-    <string name="lazy_service_default_title">Amethyst služba na popředí</string>
+    <string name="lazy_service_default_title">Künefe Launcher služba na popředí</string>
     <string name="mcl_setting_veroption_installed">Nainstalováno</string>
     <string name="use_global_default">(Užít globální výchozí nastavení)</string>
     <string name="default_control">Výchozí ovládání</string>
@@ -238,7 +238,7 @@
     <string name="preference_gyro_sample_rate_title">Vzorkovací kmitočet gyroskopu</string>
     <string name="preference_gyro_sample_rate_description">Zvyšte toto, máte-li problém s výkonem užívajíce gyroskopového ovládání.</string>
     <string name="microsoft_login_retry_later">Příliš mnoho požadavků, zkuste to znovu později.</string>
-    <string name="storage_required">PojavLauncher vyžaduje přípojené externí úložiště. Připojte jej prosím znovu a restartujte tuto aplikaci.</string>
+    <string name="storage_required">Künefe Launcher vyžaduje přípojené externí úložiště. Připojte jej prosím znovu a restartujte tuto aplikaci.</string>
     <string name="mcl_setting_title_buttonallcaps">Zobrazovat pouze velká písmena na popiscích tlačítek</string>
     <string name="mcl_setting_subtitle_buttonallcaps">Vypněte toto, chcete-li užívat malá písmena ve vlastních ovládání.</string>
     <string name="create_profile">Vytvořit nový profil</string>
@@ -294,7 +294,7 @@
     <string name="modpack_download_downloading_mods">Stahování módů (%.2f MB / %.2f MB)</string>
     <string name="modpack_download_downloading_mods_fc">Stahování módů (Soubor %d z %d)</string>
     <string name="modpack_download_applying_overrides">Provádení přepisů (%d/%d)</string>
-    <string name="modpack_install_notification_title">Instalátor Modpacků Pojavu</string>
+    <string name="modpack_install_notification_title">Instalátor Modpacků Künefeu</string>
     <string name="modpack_install_notification_success">Klikněte zde k dokončení instalace modpacku</string>
     <string name="modpack_install_notification_data_not_available">Stahování informací načítače módů selhalo</string>
     <string name="modpack_install_modloader_download_failed">Stahování souborů načítače módů selhalo</string>
@@ -324,7 +324,7 @@
     <string name="preference_category_miscellaneous">Jiná nastavení</string>
     <string name="preference_category_video">Nastavení videa</string>
     <string name="notification_permission_dialog_title">Žádost o oprávnění</string>
-    <string name="notification_permission_dialog_text">PojavLauncher vyžaduje oprávnění k odesílání oznámení, aby se zabránilo zastavení stahování hry/modpacku při opuštění aplikace. Bez tohoto oprávnění může Android přerušit vaše stahování, když přepnete PojavLauncher do režimu na pozadí.</string>
+    <string name="notification_permission_dialog_text">Künefe Launcher vyžaduje oprávnění k odesílání oznámení, aby se zabránilo zastavení stahování hry/modpacku při opuštění aplikace. Bez tohoto oprávnění může Android přerušit vaše stahování, když přepnete Künefe Launcher do režimu na pozadí.</string>
     <string name="notification_permission_toast">Později si můžete změnit svůj názor v nastavení</string>
     <string name="preference_ask_for_notification_title">Povolit oznámení</string>
     <string name="preference_ask_for_notification_description">Kliknutím znovu požádáte o oprávnění pro posílání oznámení, které je vyžadováno pro správné fungování stahování hry/modpacku na pozadí.</string>
@@ -405,7 +405,7 @@
     <string name="mg_renderer_summary_computeShaderext">Může pomoci s chybami shaderpacků. Zakažte, pokud to není třeba, může samo způsobovat pády.</string>
     <string name="mg_renderer_title_multidrawCompute">Použít výpočty mnohonásobnou emulace</string>
     <string name="mg_renderer_summary_multidrawCompute">Používá výpočty stínů pro mnohonásobnou emulaci</string>
-    <string name="app_short_name">Amethyst</string>
+    <string name="app_short_name">Künefe Launcher</string>
     <string name="demo_versions_supported">Na demo účtech jsou podporovány pouze Vanilla verze 1.3.1 a výše</string>
     <string name="demo_unsupported">Demo profil není podporován</string>
     <string name="change_account">Pro použití této funkce prosím změňte účty</string>
