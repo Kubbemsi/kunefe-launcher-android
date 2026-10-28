@@ -112,8 +112,8 @@ android {
         applicationId "com.kunefesmp.launcher"
         minSdkVersion 21
         targetSdkVersion 34
-        versionCode 4600
-        versionName "4.6-android"
+        versionCode 4601
+        versionName "4.6.1-android"
         multiDexEnabled true //important
         resValue 'string', 'curseforge_api_key', getCFApiKey()
         externalNativeBuild {

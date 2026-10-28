@@ -69,51 +69,67 @@ public class MainMenuFragment extends Fragment {
         mUsernameView = view.findViewById(R.id.kunefe_username);
         mServerStatusView = view.findViewById(R.id.kunefe_server_status);
 
-        mSettingsButton.setOnClickListener(v ->
-                startActivity(new Intent(requireContext(), KunefeSettingsActivity.class)));
+        // Bazi layout varyantlarinda (orn. eski yatay layout) bu ogeler bulunmayabilir.
+        if (mSettingsButton != null) {
+            mSettingsButton.setOnClickListener(v ->
+                    startActivity(new Intent(requireContext(), KunefeSettingsActivity.class)));
+        }
 
-        mNewsButton.setOnClickListener(v -> Tools.openURL(requireActivity(), Tools.URL_HOME));
-        mDiscordButton.setOnClickListener(v -> Tools.openURL(requireActivity(), getString(R.string.discord_invite)));
-        mCustomControlButton.setOnClickListener(v -> startActivity(new Intent(requireContext(), CustomControlsActivity.class)));
-        if (hasOnlineProfile()) {
-            mInstallJarButton.setOnClickListener(v -> runInstallerWithConfirmation(false));
-            mInstallJarButton.setOnLongClickListener(v -> {
-                runInstallerWithConfirmation(true);
+        if (mNewsButton != null) {
+            mNewsButton.setOnClickListener(v -> Tools.openURL(requireActivity(), Tools.URL_HOME));
+            mNewsButton.setOnLongClickListener((v) -> {
+                Tools.swapFragment(requireActivity(), GamepadMapperFragment.class, GamepadMapperFragment.TAG, null);
                 return true;
             });
-        } else mInstallJarButton.setOnClickListener(v -> hasNoOnlineProfileDialog(requireActivity()));
-        mEditProfileButton.setOnClickListener(v -> mVersionSpinner.openProfileEditor(requireActivity()));
+        }
+        if (mDiscordButton != null) {
+            mDiscordButton.setOnClickListener(v -> Tools.openURL(requireActivity(), getString(R.string.discord_invite)));
+        }
+        if (mCustomControlButton != null) {
+            mCustomControlButton.setOnClickListener(v -> startActivity(new Intent(requireContext(), CustomControlsActivity.class)));
+        }
+        if (mInstallJarButton != null) {
+            if (hasOnlineProfile()) {
+                mInstallJarButton.setOnClickListener(v -> runInstallerWithConfirmation(false));
+                mInstallJarButton.setOnLongClickListener(v -> {
+                    runInstallerWithConfirmation(true);
+                    return true;
+                });
+            } else mInstallJarButton.setOnClickListener(v -> hasNoOnlineProfileDialog(requireActivity()));
+        }
+        if (mEditProfileButton != null) {
+            mEditProfileButton.setOnClickListener(v -> mVersionSpinner.openProfileEditor(requireActivity()));
+        }
 
-        mPlayButton.setOnClickListener(v -> {
-            if (Tools.hasMods("sodium") && !(LauncherPreferences.DEFAULT_PREF.getBoolean("sodium_override", false))) {
-                AlertDialog sodiumWarningDialog = new AlertDialog.Builder(requireContext())
-                        .setTitle(R.string.sodium_warning_title)
-                        .setMessage(R.string.sodium_warning_message)
-                        .setNeutralButton(R.string.delete_sodium, (d,w)-> {
-                            Tools.deleteSodiumMods();
-                            ensureModsAndLaunch();
-                        })
-                        .create();
-                sodiumWarningDialog.show();
-            } else ensureModsAndLaunch();
-        });
+        if (mPlayButton != null) {
+            mPlayButton.setOnClickListener(v -> {
+                if (Tools.hasMods("sodium") && !(LauncherPreferences.DEFAULT_PREF.getBoolean("sodium_override", false))) {
+                    AlertDialog sodiumWarningDialog = new AlertDialog.Builder(requireContext())
+                            .setTitle(R.string.sodium_warning_title)
+                            .setMessage(R.string.sodium_warning_message)
+                            .setNeutralButton(R.string.delete_sodium, (d, w) -> {
+                                Tools.deleteSodiumMods();
+                                ensureModsAndLaunch();
+                            })
+                            .create();
+                    sodiumWarningDialog.show();
+                } else ensureModsAndLaunch();
+            });
+        }
 
-        mShareLogsButton.setOnClickListener((v) -> shareLog(requireContext()));
+        if (mShareLogsButton != null) {
+            mShareLogsButton.setOnClickListener((v) -> shareLog(requireContext()));
+        }
 
-        mOpenDirectoryButton.setOnClickListener((v)-> {
-            if (Tools.isDemoProfile(v.getContext())){ // Say a different message when on demo profile since they might see the hidden demo folder
-                hasNoOnlineProfileDialog(getActivity(), getString(R.string.demo_unsupported), getString(R.string.change_account));
-            } else if (!hasOnlineProfile()) { // Otherwise display the generic pop-up to log in
-                hasNoOnlineProfileDialog(requireActivity());
-            } else openPath(v.getContext(), getCurrentProfileDirectory(), false);
-
-        });
-
-
-        mNewsButton.setOnLongClickListener((v)->{
-            Tools.swapFragment(requireActivity(), GamepadMapperFragment.class, GamepadMapperFragment.TAG, null);
-            return true;
-        });
+        if (mOpenDirectoryButton != null) {
+            mOpenDirectoryButton.setOnClickListener((v) -> {
+                if (Tools.isDemoProfile(v.getContext())) { // Say a different message when on demo profile since they might see the hidden demo folder
+                    hasNoOnlineProfileDialog(getActivity(), getString(R.string.demo_unsupported), getString(R.string.change_account));
+                } else if (!hasOnlineProfile()) { // Otherwise display the generic pop-up to log in
+                    hasNoOnlineProfileDialog(requireActivity());
+                } else openPath(v.getContext(), getCurrentProfileDirectory(), false);
+            });
+        }
     }
 
     private File getCurrentProfileDirectory() {
