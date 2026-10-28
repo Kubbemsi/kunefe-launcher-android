@@ -2,6 +2,8 @@
 
 KünefeSMP sunucusu için **Android istemcisi**. Masaüstü Künefe Launcher 4.6'nın mekaniklerini (giriş, sürüm kurulumu, modlar, doku paketi, skin, otomatik sunucu bağlantısı, otomatik güncelleme) Android'e taşıyan bir launcher.
 
+Depo: <https://github.com/Kubbemsi/kunefe-launcher-android> — uygulamanın Ayarlar ekranında da bu bağlantı bulunur.
+
 Bu depo, [Amethyst-Android](https://github.com/AngelAuraMC/Amethyst-Android) projesinin (PojavLauncher tabanlı, **LGPLv3**) bir fork'udur. LGPLv3 gereği, dağıtılan APK'nın kaynak kodu bu depoda yayınlanmaktadır.
 
 - Üst proje: `AngelAuraMC/Amethyst-Android`, fork tabanı commit `28d6e12`
