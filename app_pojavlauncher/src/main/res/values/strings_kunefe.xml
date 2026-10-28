@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="kunefe_login_title">KunefeSMP</string>
+    <string name="kunefe_login_subtitle">Hesabınla giriş yap, oyuna hazır ol.</string>
+    <string name="kunefe_username_hint">Kullanıcı adı</string>
+    <string name="kunefe_password_hint">Şifre</string>
+    <string name="kunefe_password2_hint">Şifre (tekrar)</string>
+    <string name="kunefe_login_action">Giriş Yap</string>
+    <string name="kunefe_register_action">Kayıt Ol</string>
+    <string name="kunefe_no_account">Hesabın yok mu? Kayıt ol</string>
+    <string name="kunefe_have_account">Zaten hesabın var mı? Giriş yap</string>
+    <string name="kunefe_server_checking">● Sunucu kontrol ediliyor...</string>
+    <string name="kunefe_online">● Sunucu çevrimiçi</string>
+    <string name="kunefe_offline">● Sunucu çevrimdışı</string>
+    <string name="kunefe_version">Kunefe Launcher 4.6 · Android</string>
+
+    <!-- İlk kurulum -->
+    <string name="kunefe_setup_title">Kurulum</string>
+    <string name="kunefe_setup_subtitle">KünefeSMP istemcisi hazırlanıyor</string>
+    <string name="kunefe_setup_starting">Başlatılıyor...</string>
+    <string name="kunefe_setup_first_run">İlk kurulumda Minecraft 1.21.1 ve Fabric indirilir (yaklaşık 300 MB). Wi-Fi kullanman önerilir; kurulum bitene kadar uygulamayı kapatma.</string>
+    <string name="kunefe_setup_percent">%1$d%%</string>
+    <string name="kunefe_setup_retry">Tekrar Dene</string>
+    <string name="kunefe_setup_skip">Atla</string>
+    <string name="kunefe_setup_launching">Launcher açılıyor...</string>
+    <string name="kunefe_setup_done">Kurulum tamamlandı</string>
+    <string name="kunefe_setup_failed">Kurulum tamamlanamadı:</string>
+    <string name="kunefe_setup_skip_warning">Atla seçeneği Minecraft/Fabric kurulmadan launcher\'ı açar. Oyunu başlatmaya çalıştığında eksik dosyalar otomatik tamamlanır.</string>
+    <string name="kunefe_setup_cancelled">Kurulum iptal edildi.</string>
+
+    <!-- Ayarlar -->
+    <string name="kunefe_settings_title">Ayarlar</string>
+    <string name="kunefe_settings_subtitle">Oyun ayarlarını ve modlarını yönet</string>
+    <string name="kunefe_settings_fps">FPS Profili</string>
+    <string name="kunefe_settings_fps_hint">Görüş mesafesi, parçacıklar ve FPS sınırı buna göre uygulanır.</string>
+    <string name="kunefe_settings_fps_performance">Performans</string>
+    <string name="kunefe_settings_fps_balanced">Dengeli</string>
+    <string name="kunefe_settings_fps_ultra">Ultra</string>
+    <string name="kunefe_settings_skin">Skin</string>
+    <string name="kunefe_settings_skin_hint">PNG seç (64x64 veya 64x32). Skin sunucuya yüklenir ve oyunda görünür.</string>
+    <string name="kunefe_settings_skin_pick">Skin Seç</string>
+    <string name="kunefe_settings_skin_none">Henüz skin seçilmedi</string>
+    <string name="kunefe_settings_skin_selected">Skin hazır: %1$s</string>
+    <string name="kunefe_settings_mods">Modlar</string>
+    <string name="kunefe_settings_mods_hint">Zorunlu modlar her zaman kurulur. İsteğe bağlı modları açıp kapatabilirsin.</string>
+    <string name="kunefe_settings_required">Zorunlu</string>
+    <string name="kunefe_settings_save">Kaydet</string>
+    <string name="kunefe_settings_saved">Ayarlar kaydedildi</string>
+    <string name="kunefe_settings_saving">Kaydediliyor...</string>
+    <string name="kunefe_settings_mods_applying">Modlar uygulanıyor...</string>
+    <string name="kunefe_settings_error">Hata: %1$s</string>
+    <string name="kunefe_settings_skin_invalid">Geçerli bir PNG skin seç.</string>
+    <string name="kunefe_settings_skin_upload_failed">Skin sunucuya yüklenemedi; yalnızca cihazda kullanılacak.</string>
+    <string name="kunefe_settings_skin_uploaded">Skin sunucuya yüklendi.</string>
+
+    <!-- Ana ekran -->
+    <string name="kunefe_home_welcome">Hoş geldin, %1$s</string>
+    <string name="kunefe_home_no_user">Giriş yapılmadı</string>
+    <string name="kunefe_home_server_title">KünefeSMP Sunucusu</string>
+    <string name="kunefe_home_server_address">oyna.kunefesmp.com.tr:25565</string>
+    <string name="kunefe_home_server_hint">Oyna\'ya bastığında oyun açılır ve doğrudan sunucuya bağlanır.</string>
+    <string name="kunefe_home_actions">Hızlı İşlemler</string>
+    <string name="kunefe_home_tip">Minecraft 1.21.1 · Fabric · Künefe istemcisi</string>
+    <string name="kunefe_mods_checking">Modlar kontrol ediliyor...</string>
+
+    <!-- Güncelleme -->
+    <string name="kunefe_update_title">Güncelleme mevcut</string>
+    <string name="kunefe_update_message">Yeni sürüm: %1$s. Şimdi indirip kurmak ister misin?</string>
+    <string name="kunefe_update_now">Güncelle</string>
+    <string name="kunefe_update_later">Daha Sonra</string>
+    <string name="kunefe_update_downloading">Güncelleme indiriliyor</string>
+    <string name="kunefe_update_install_failed">Güncelleme kurulamadı. Daha sonra tekrar dene.</string>
+    <string name="kunefe_update_allow_install">Kurulum iznini aç, sonra Güncelle\'ye tekrar bas.</string>
+    <string name="kunefe_update_check_failed">Güncelleme sunucusuna ulaşılamadı.</string>
+    <string name="kunefe_update_latest">Launcher güncel.</string>
+    <string name="kunefe_settings_check_update">Güncellemeyi Denetle</string>
+    <string name="kunefe_settings_logout">Çıkış Yap</string>
+    <string name="kunefe_settings_logout_title">Çıkış yapılsın mı?</string>
+    <string name="kunefe_settings_logout_message">Hesap bilgileri bu cihazdan kaldırılır. Oyun dosyaların silinmez.</string>
+    <string name="kunefe_settings_logout_confirm">Çıkış Yap</string>
+    <string name="kunefe_settings_logout_cancel">Vazgeç</string>
+</resources>

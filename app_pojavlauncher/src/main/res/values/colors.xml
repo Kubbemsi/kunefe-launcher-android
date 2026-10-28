@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="control_button_color">#4CC4C4C4</color>
+    <color name="control_button_pressed_color">#4D000000</color>
+
+    <color name="minebutton_color">#FF6200</color>
+    <color name="background_app">#07071A</color>
+    <color name="divider">@color/background_overlay</color>
+    <color name="background_overlay">#2A2A4A</color>
+    <color name="background_status_bar">#07071A</color>
+    <color name="background_bottom_bar">#10102A</color>
+
+    <color name="primary_text">#FFFFFF</color>
+    <color name="secondary_text">#9AA0B5</color>
+
+    <color name="kunefe_bg">#07071A</color>
+    <color name="kunefe_card">#12122B</color>
+    <color name="kunefe_input">#0B0B1E</color>
+    <color name="kunefe_border">#2A2A4A</color>
+    <color name="kunefe_accent">#FF6200</color>
+    <color name="kunefe_text">#FFFFFF</color>
+    <color name="kunefe_dim">#9AA0B5</color>
+    <color name="kunefe_online">#35D07F</color>
+    <color name="kunefe_offline">#FF5C5C</color>
+</resources>

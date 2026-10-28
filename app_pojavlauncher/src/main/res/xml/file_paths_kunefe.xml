@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<paths>
+    <!-- KunefeUpdater indirdiği APK'yı buradan paylaşır -->
+    <cache-path
+        name="kunefe_updates"
+        path="." />
+</paths>

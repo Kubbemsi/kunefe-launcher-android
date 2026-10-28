@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/kunefe_bg"
+    android:clipToPadding="false"
+    android:fillViewport="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:orientation="vertical"
+        android:paddingStart="28dp"
+        android:paddingTop="44dp"
+        android:paddingEnd="28dp"
+        android:paddingBottom="28dp">
+
+        <ImageView
+            android:layout_width="108dp"
+            android:layout_height="108dp"
+            android:contentDescription="@string/kunefe_login_title"
+            android:src="@drawable/kunefe_logo" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="14dp"
+            android:fontFamily="sans-serif-black"
+            android:text="@string/kunefe_login_title"
+            android:textColor="@color/kunefe_text"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:gravity="center"
+            android:text="@string/kunefe_login_subtitle"
+            android:textColor="@color/kunefe_dim"
+            android:textSize="13sp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="26dp"
+            android:background="@drawable/bg_kunefe_card"
+            android:orientation="vertical"
+            android:padding="16dp">
+
+            <EditText
+                android:id="@+id/user_input"
+                android:layout_width="match_parent"
+                android:layout_height="52dp"
+                android:autofillHints="username"
+                android:background="@drawable/bg_kunefe_input"
+                android:hint="@string/kunefe_username_hint"
+                android:imeOptions="actionNext"
+                android:inputType="text"
+                android:paddingStart="14dp"
+                android:paddingEnd="14dp"
+                android:singleLine="true"
+                android:textColor="@color/kunefe_text"
+                android:textColorHint="@color/kunefe_dim"
+                android:textSize="15sp" />
+
+            <EditText
+                android:id="@+id/pass_input"
+                android:layout_width="match_parent"
+                android:layout_height="52dp"
+                android:layout_marginTop="12dp"
+                android:autofillHints="password"
+                android:background="@drawable/bg_kunefe_input"
+                android:hint="@string/kunefe_password_hint"
+                android:imeOptions="actionDone"
+                android:inputType="textPassword"
+                android:paddingStart="14dp"
+                android:paddingEnd="14dp"
+                android:singleLine="true"
+                android:textColor="@color/kunefe_text"
+                android:textColorHint="@color/kunefe_dim"
+                android:textSize="15sp" />
+
+            <EditText
+                android:id="@+id/pass2_input"
+                android:layout_width="match_parent"
+                android:layout_height="52dp"
+                android:layout_marginTop="12dp"
+                android:background="@drawable/bg_kunefe_input"
+                android:hint="@string/kunefe_password2_hint"
+                android:imeOptions="actionDone"
+                android:inputType="textPassword"
+                android:paddingStart="14dp"
+                android:paddingEnd="14dp"
+                android:singleLine="true"
+                android:textColor="@color/kunefe_text"
+                android:textColorHint="@color/kunefe_dim"
+                android:textSize="15sp"
+                android:visibility="gone" />
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/action_button"
+            android:layout_width="match_parent"
+            android:layout_height="54dp"
+            android:layout_marginTop="16dp"
+            android:background="@drawable/bg_kunefe_button"
+            android:stateListAnimator="@null"
+            android:text="@string/kunefe_login_action"
+            android:textAllCaps="false"
+            android:textColor="#07071A"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <ProgressBar
+            android:id="@+id/progress"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:indeterminateTint="@color/kunefe_accent"
+            android:visibility="gone" />
+
+        <TextView
+            android:id="@+id/status_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:gravity="center"
+            android:textColor="@color/kunefe_offline"
+            android:textSize="13sp"
+            android:visibility="gone" />
+
+        <TextView
+            android:id="@+id/toggle_mode"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="18dp"
+            android:padding="8dp"
+            android:text="@string/kunefe_no_account"
+            android:textColor="@color/kunefe_accent"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/server_status"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="26dp"
+            android:text="@string/kunefe_server_checking"
+            android:textColor="@color/kunefe_dim"
+            android:textSize="12sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="6dp"
+            android:text="@string/kunefe_version"
+            android:textColor="#5A5F7A"
+            android:textSize="11sp" />
+    </LinearLayout>
+</ScrollView>
