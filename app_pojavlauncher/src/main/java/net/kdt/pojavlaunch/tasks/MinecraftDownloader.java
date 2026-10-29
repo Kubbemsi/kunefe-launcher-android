@@ -103,6 +103,15 @@ public class MinecraftDownloader {
                         if (providedJsonFile.length() == 0 || vanillaJsonFile.exists() && vanillaJsonFile.length() == 0){
                             throw new RuntimeException("Minecraft "+versionMessage+ " is needed by " +realVersion); }
 
+                        // KünefeSMP: kütüphane dosyaları eksikse oyunu açmadan önce indirme/onarma akışına düş.
+                        // Aksi halde classpath boş kalıyor ve oyun StringIndexOutOfBoundsException ile çöküyordu.
+                        JMinecraftVersionList.Version installedVersion = Tools.getVersionInfo(realVersion);
+                        int missingLibraries = Tools.countMissingLibraries(installedVersion);
+                        if (missingLibraries > 0) {
+                            Log.i("KunefeRepair", missingLibraries + " kutuphane eksik, onarim gerekiyor: " + realVersion);
+                            throw new RuntimeException(realVersion + " icin " + missingLibraries + " kutuphane dosyasi eksik");
+                        }
+
                         listener.onDownloadDone();
                     } catch (Exception e) {
                         // KünefeSMP: yerel hesaplarda da eksik sürümü indirmeyi dene.

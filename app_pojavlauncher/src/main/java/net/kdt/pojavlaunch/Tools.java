@@ -893,6 +893,11 @@ public final class Tools {
         for (String jarFile : classpath) {
             libClasspath.append(jarFile).append(":");
         }
+        // Guard: if every library is missing, length is 0 and setLength(-1) would crash
+        // with StringIndexOutOfBoundsException instead of telling the user what is wrong.
+        if (libClasspath.length() == 0) {
+            throw new RuntimeException("Oyun kutuphaneleri bulunamadi. Lutfen internet baglantini kontrol edip tekrar dene.");
+        }
         // Remove the ':' at the end
         libClasspath.setLength(libClasspath.length() - 1);
         return libClasspath.toString();
@@ -1266,6 +1271,22 @@ public final class Tools {
         sLwjglVersion = iLwjglVersion >= 341 ? "3.4.1" : "3.3.3";
         lwjglNativesDir = String.format("%s/lwjgl-%s-natives/%s", Tools.DIR_DATA, sLwjglVersion, archAsStringAndroid(getDeviceArchitecture()));
         return libDir.toArray(new String[0]);
+    }
+
+    /**
+     * Count library jars that the version needs but that are not present on disk.
+     * Used to repair incomplete installs before launching the game.
+     */
+    public static int countMissingLibraries(JMinecraftVersionList.Version info) {
+        if (info == null || info.libraries == null) return 0;
+        int missing = 0;
+        for (DependentLibrary libItem : info.libraries) {
+            if (libItem == null || libItem.name == null) continue;
+            if (!checkRules(libItem.rules)) continue;
+            String libPath = DIR_HOME_LIBRARY + "/" + artifactToPath(libItem);
+            if (!FileUtils.exists(libPath)) missing++;
+        }
+        return missing;
     }
 
     public static JMinecraftVersionList.Version getVersionInfo(String versionName) {

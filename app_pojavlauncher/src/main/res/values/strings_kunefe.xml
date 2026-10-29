@@ -12,7 +12,7 @@
     <string name="kunefe_server_checking">● Sunucu kontrol ediliyor...</string>
     <string name="kunefe_online">● Sunucu çevrimiçi</string>
     <string name="kunefe_offline">● Sunucu çevrimdışı</string>
-    <string name="kunefe_version">Künefe Launcher 4.6.2 · Android</string>
+    <string name="kunefe_version">Künefe Launcher 4.6.4 · Android</string>
 
     <!-- İlk kurulum -->
     <string name="kunefe_setup_title">Kurulum</string>
